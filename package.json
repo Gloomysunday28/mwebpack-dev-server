@@ -1,0 +1,26 @@
+{
+  "name": "@kvinc/acorn-webpack-dev-server",
+  "version": "0.0.2",
+  "description": "依据@kvinc/acorn-webpack制作的服务器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js --config config.js"
+  },
+  "bin": {
+    "mwebpack-dev-server": "index.js"
+  },
+  "keywords": [
+    "webpack",
+    "acorn"
+  ],
+  "author": "cjd <459953103@qq.com> (http://github.com/GloomySunday28)",
+  "license": "MIT",
+  "dependencies": {
+    "@kvinc/acorn-webpack": "^0.0.21",
+    "open": "^6.4.0"
+  },
+  "devDependencies": {
+    "ms": "^2.1.2"
+  }
+}
